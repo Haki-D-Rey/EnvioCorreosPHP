@@ -1,0 +1,45 @@
+# Ignorar archivos generados por Composer
+/vendor/
+/composer.lock
+
+# Ignorar archivos de entorno
+/.env
+/.env.local
+/.env.*.local
+
+# Ignorar archivos de caché
+/cache/
+/tmp/
+/logs/
+/*.log
+
+# Ignorar configuraciones específicas del IDE
+/.idea/
+/*.iml
+/.vscode/
+
+# Ignorar archivos de PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+
+# Ignorar configuraciones específicas del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos y carpetas específicos de Symfony (si aplica)
+var/
+/var/
+/config/secrets/*/local.yaml
+
+# Ignorar archivos de sesión
+*.session
+
+# Ignorar archivos de errores
+error_log
+
+# Ignorar archivos de depuración
+debug.log
+
+# Ignorar otros archivos y carpetas específicos del proyecto
+/public/uploads/*
+/public/assets/*
